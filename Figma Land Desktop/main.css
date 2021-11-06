@@ -1,0 +1,584 @@
+.section-1{
+    position: relative;
+    background: linear-gradient(white 10%, #b6f1ea 70%, white 90%);
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+}
+/*-----------------------------------------------------------top_container---------------------------------------------------------*/
+.Top-Container{
+    display: flex;
+    margin: 30px 180px 0px 180px;
+    justify-content: center;
+}
+.Top-Container img{
+    width: 150px;
+    height: 50px;
+}
+.Top-Container_options{
+    display: flex;
+    font-size:20px;
+    margin-left: 200px;
+}
+.Top-Container_options a{
+    margin:auto 20px auto 20px;
+}
+.Top-Container_options a:hover{
+    cursor: pointer;
+    text-decoration: underline blue;
+}
+.Top-Container button{
+    margin-left: 200px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #00B6F0;
+    font-weight: 700;
+    border: 2px solid ;
+    background-color: #fff;
+}
+.Top-Container button:hover{
+    text-decoration: underline blue;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------top_container---------------------------------------------------------*/
+/*-----------------------------------------------------------title---------------------------------------------------------*/
+.title-item{
+    text-align: center;
+    width: 800px;
+    margin:130px auto 0px auto;
+}
+.title-item-1{
+    font-size:100px;
+    font-weight: 700;
+}
+.title-item-2{
+    margin:40px auto 0px auto;
+    font-size: 25px;
+    width: 500px;
+    color: rgb(117, 122, 122);
+}
+/*-----------------------------------------------------------title---------------------------------------------------------*/
+/*-----------------------------------------------------------elip---------------------------------------------------------*/
+.elip_1{
+    margin-top:350px;
+    position: absolute;
+    width: 800px;
+    height:700px;
+    background-color: #00B6F0;
+    border-radius:50%;
+    left:-500px;
+}
+.elip_2{
+    margin-top:550px;
+    position: absolute;
+    width: 700px;
+    height:500px;
+    border-radius:50%;
+    background-color: #F3CD03;
+    left:80%;
+}
+/*-----------------------------------------------------------elip---------------------------------------------------------*/
+/*-----------------------------------------------------------sectuon-1_button---------------------------------------------------------*/
+.section-1_button{
+    margin: 50px auto 0px auto;
+}
+.section-1_button button{
+    margin: 50px 20px 0px 20px;
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-1_button_1{
+    background-color: #00b6f0;
+    color: #fff;
+}
+.section-1_button_1:hover{
+    cursor: pointer;
+    background-color: #0ea3d4;   
+}
+.section-1_button_2{
+    background-color:white;
+    color: black;
+}
+.section-1_button_2:hover{
+    background-color:rgb(235, 235, 235);
+    cursor: pointer;
+}
+/*-----------------------------------------------------------sectuon-1_button---------------------------------------------------------*/
+/*-----------------------------------------------------------sectuon-1_display---------------------------------------------------------*/
+.section-1_display{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.rectangle{
+    display: flex;
+    align-items: center;
+    background-color:#e2e3e5;
+    width: 1200px;
+    height:50px;
+    margin: 50px auto 0px auto;
+    border: 1px solid red;
+}
+.rectangle-item-circle{
+    display: flex;
+    margin-left: 30px;
+}
+.circle{
+    width:15px;
+    height: 15px;
+    background-color:#c4c6ca;
+    border-radius:50%;
+    margin: auto 5px auto 10px;
+}
+.rectangle-item-rectangle{
+    width: 1000px;
+    height: 30px;
+    background-color:white;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.section-1-img{
+    margin:0px auto 0px auto;
+}
+.section-1-img img{
+    width: 1200px;
+    object-fit: cover;
+}
+/*-----------------------------------------------------------sectuon-1_display---------------------------------------------------------*/
+.section-2{
+    margin-top: 50px;
+    height:max-content;
+}
+/*-----------------------------------------------------------calendar_introduce---------------------------------------------------------*/
+.calendar_introduce{
+    text-align:center;
+}
+.calendar_introduce span{
+    color: #F3CD03;
+    font-size: 36px;
+}
+.calendar_introduce p{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.introduce_title{
+    font-size: 24px;
+    width: 420px;
+    margin: 20px auto 0px auto;
+    color: #5C5C5C;
+}
+.calendar_introduce_button button{
+    margin: 50px 20px 0px 20px;
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button_1{
+    background: #00B6F0;
+    color:white;
+}
+.button_1:hover{
+    background: #04a9e0;
+    cursor: pointer;
+}
+.button_2{
+    color:#00B6F0;
+    background-color:white;
+}
+.button_2:hover{
+    text-decoration: underline #00B6F0;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------calendar_introduce---------------------------------------------------------*/
+/*-----------------------------------------------------------OpenType_features---------------------------------------------------------*/
+.OpenType_features{
+    position: relative;
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+.OpenType_features_Content{
+    margin-top:50px;
+    margin-left: 70px;
+    width: 500px;
+}
+.OpenType_features_Theme{
+    font-size: 36px;
+}
+.OpenType_features_Title{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #5C5C5C;
+    width: 420px;
+}
+.OpenType_features_More{
+    font-size: 18px;
+    color: #00B6F0;
+    margin-top: 27px;
+}
+.OpenType_features_More:hover{
+    text-decoration: underline #00B6F0;
+    cursor: pointer;
+}
+.OpenType_features_img{
+    z-index: 2;
+}
+.OpenType_features_img img{
+    Width: 516px;
+    object-fit: cover;
+}
+.OpenType_features_Decoration{
+    position: absolute;
+    width: 598px;
+    height: 497px;
+    background: #00B6F0;
+    right:-50px;
+    border-top-left-radius: 500% ;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 40%;
+}
+/*-----------------------------------------------------------OpenType_features---------------------------------------------------------*/
+/*-----------------------------------------------------------Variable_fonts---------------------------------------------------------*/
+.Variable_fonts{
+    position: relative;
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+.Variable_fonts_Content{
+    margin-top:150px;
+    width: 500px;
+}
+.Variable_fonts_img{
+    margin-top: 100px;
+    z-index: 2;
+}
+.Variable_fonts_img img{
+    Width: 516px;
+    object-fit: cover;
+}
+.Variable_fonts_Theme{
+    font-size: 36px;
+}
+.Variable_fonts_Title{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #5C5C5C;
+    width: 420px;
+}
+.Variable_fonts_More{
+    font-size: 18px;
+    color: #00B6F0;
+    margin-top: 27px;
+}
+.Variable_fonts_More:hover{
+    text-decoration: underline #00B6F0;
+    cursor: pointer;
+}
+.Variable_fonts_Decoration{
+    position: absolute;
+    width: 570px;
+    height: 501px;
+    background: #F3CD03;
+    border-top-left-radius: 90% ;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 30%;
+    left:-200px
+}
+/*-----------------------------------------------------------Variable_fonts---------------------------------------------------------*/
+/*-----------------------------------------------------------Rethink---------------------------------------------------------*/
+.Rethink{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:100px
+}
+.Rethink_Theme{
+    font-weight: bold;
+    font-size: 56px;
+}
+.Rethink_Title{
+    margin-top:30px;
+    font-weight: 450;
+    font-size: 19px;
+    color: #5C5C5C;
+}
+.Rethink_lever_bar{
+    position: relative;
+    margin:30px auto 0px auto;
+    width: 750px;
+    height: 15px;
+    background-color: #F3F5F8;
+    border-radius: 7px;
+}
+.Rethink_lever_bar_Current{
+    position: absolute;
+    background-color:#00B6F0;
+    width: 400px;
+    height:15px;
+    border-radius: 7px;
+}
+.Rethink_Data{
+    margin: 10px auto 0px auto;
+    width: 750px;
+}
+.Rethink_Data_Name{
+    float: left;
+}
+.Rethink_Data_Amount{
+    float: right;
+}
+.Rethink_button{
+    margin-top:50px
+}
+.Rethink_button button{
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #00B6F0;
+}
+.Rethink_button button:hover{
+    cursor: pointer;
+    background-color: #03ace4;
+}
+/*-----------------------------------------------------------Rethink---------------------------------------------------------*/
+/*-----------------------------------------------------------Testimonials---------------------------------------------------------*/
+.Testimonials{
+    position: relative;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Testimonials_Theme{
+    font-weight: 450;
+    font-size: 36px;
+}
+.Testimonials_img img{
+    width: 150px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.Testimonials_Title{
+    width: 530px;
+    margin: 40px auto 0px auto;
+    font-weight: 450;
+    font-size: 19px;
+    color: #5C5C5C;
+}
+.Testimonials_Personal{
+    display: flex;
+    margin: 30px auto 0px auto;
+    align-items: center;
+}
+.Testimonials_Personal img{
+    width: 50px;
+    object-fit: cover;
+}
+.Testimonials_Personal_information{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.Testimonials_Personal_information span{
+    color: #5C5C5C;
+}
+.Testimonials_Personal_button button{
+    margin: 50px 20px 0px 20px;
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #00B6F0;
+    color:white;
+}
+.Testimonials_Personal_button button:hover{
+    background: #02a6dd;
+    cursor: pointer;
+}
+.Testimonials_Decoration_1{
+    position: absolute;
+    width: 122.35px;
+    height: 86.48px;
+    background: #112D57;
+    opacity: 0.63;
+    transform: rotate(-52.82deg);
+    border-top-left-radius: 60% ;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 30%;
+    margin-left: 100px;
+}
+.Testimonials_Decoration_2{
+    position: absolute;
+    width: 562px;
+    height: 435px;
+    background: #112D57;
+    right:-150px;
+    margin-top: 250px;
+    border-top-left-radius: 60% ;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 30%;
+    z-index: -1;
+}
+/*-----------------------------------------------------------Testimonials---------------------------------------------------------*/
+/*-----------------------------------------------------------Pricing---------------------------------------------------------*/
+.section-3{
+    margin-top:100px;
+}
+.Pricing{
+    background: #182333;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    height: 350px;
+}
+.Pricing_Theme{
+    margin-right: 200px;
+    margin-top: 60px;
+}
+.Pricing_Theme_Toping{
+    font-size: 56px;
+    color: #FFFFFF;
+}
+.Pricing_Theme_Title{
+    font-weight: 450;
+    font-size: 19px;
+    color: #FFFFFF;
+    width: 417px;
+    margin-top: 10px;
+}
+.Pricing_Infomation{
+    margin-top: 60px;
+}
+.Pricing_Infomation_Time{
+    font-weight: 450;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.Pricing_Infomation_Value{
+    display: flex;
+    align-items: center;
+}
+.Money{
+    font-weight: 900;
+    font-size: 72px;
+    color: #F3CD03;
+}
+.On_Time{
+    font-weight: 450;
+    font-size: 24px;
+    color: #FFFF;
+    width:130px;
+}
+.Pricing_Infomation_Title{
+    font-weight: 450;
+    font-size: 19px;
+    color: white;
+}
+.Pricing_Infomation_button button{
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #00B6F0;
+    color:white;
+    margin-top: 20px;
+}
+.Pricing_Infomation_button button:hover{
+    background: #00b4f0e7;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------Pricing---------------------------------------------------------*/
+/*-----------------------------------------------------------Ergonomic---------------------------------------------------------*/
+.Ergonomic{
+    display: flex;
+    background: linear-gradient( #b6f1ea 5%, white 90%);
+    justify-content: center;
+    height:430px;
+}
+.Ergonomic_Theme{
+    margin-top:100px;
+    font-weight: 450;
+    font-size: 36px;
+    margin-right: 100px;
+    width: 390px;
+}
+.Ergonomic_Title_Describe{
+    margin-top:100px;
+    font-weight: 450;
+    font-size: 19px;
+    width: 390px;
+}
+.Ergonomic_Title_button{
+    margin-top:20px
+}
+.Ergonomic_Title_button button{
+    border: 1px solid #0ea3d4;
+    border-radius:30px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #00B6F0;
+}
+.Ergonomic_Title_button button:hover{
+    background-color: #07a2d6e8;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------Ergonomic---------------------------------------------------------*/
+/*-----------------------------------------------------------Bottom-Container---------------------------------------------------------*/
+.Bottom-Container{
+    display: flex;
+    margin: 30px 180px 40px 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bottom-Container_Right_img img{
+    width: 190px;
+    object-fit: cover;
+}
+.Bottom-Container_Options{
+    display: flex;
+    font-size:20px;
+}
+.Bottom-Container_Options a{
+    margin:auto 30px auto 30px;
+}
+.Bottom-Container_Options a:hover{
+    cursor: pointer;
+    text-decoration: underline blue;
+}
+.Bottom-Container_Title{
+    font-weight: 450;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+.Bottom-Container_Left_img img{
+    width: 40px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+/*-----------------------------------------------------------Bottom-Container---------------------------------------------------------*/
